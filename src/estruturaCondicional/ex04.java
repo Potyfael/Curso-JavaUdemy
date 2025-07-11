@@ -13,11 +13,9 @@ public class ex04 {
         int duracao;
 
         if (horaInicial > horaFinal) {
-            duracao = 24 - (horaInicial - horaFinal);
-        } else if (horaFinal > horaInicial) {
+            duracao = (horaInicial - horaFinal);
+        } else{
            duracao = 24 - (horaFinal - horaInicial);
-        } else {
-            duracao = 24;
         }
 
         System.out.printf("O JOGO DUROU %d HORA(S)%n", duracao);
