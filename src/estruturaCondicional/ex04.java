@@ -12,8 +12,8 @@ public class ex04 {
         int horaFinal = sc.nextInt();
         int duracao;
 
-        if (horaInicial > horaFinal) {
-            duracao = (horaInicial - horaFinal);
+        if (horaInicial < horaFinal) {
+            duracao = (horaFinal - horaInicial);
         } else{
            duracao = 24 - (horaFinal - horaInicial);
         }
