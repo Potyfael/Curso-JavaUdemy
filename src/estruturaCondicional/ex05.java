@@ -21,18 +21,24 @@ public class ex05 {
         int quant = sc.nextInt();
 
         double total = quant;
-        if (cod == 1) {
-            total *= 4;
-        } else if (cod == 2) {
-            total *= 4.50;
-        } else if (cod ==3) {
-            total *= 5;
-        } else if (total == 4) {
-            total *= 2;
-        } else if (total == 5) {
-            total *= 1.50;
-        } else {
-            total *= 0;
+        switch (cod) {
+            case 1:
+                total *= 4.;
+                break;
+            case 2:
+                total *= 4.50;
+                break;
+            case 3:
+                total *= 5.;
+                break;
+            case 4:
+                total *= 2.;
+                break;
+            case 5:
+                total *= 1.50;
+                break;
+            default:
+                total *= 0;
         }
 
         System.out.printf("TOTAL: R$ %.2f%n", total);
