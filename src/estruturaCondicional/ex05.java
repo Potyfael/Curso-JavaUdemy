@@ -18,9 +18,8 @@ public class ex05 {
         int cod = sc.nextInt();
 
         System.out.print("Digite a quantidade do item: ");
-        int quant = sc.nextInt();
 
-        double total = quant;
+        double total = sc.nextInt();
         switch (cod) {
             case 1:
                 total *= 4.;
