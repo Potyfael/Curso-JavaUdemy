@@ -1,4 +1,4 @@
-package estruturaRepetitiva;
+package estruturaRepetitiva.whilee;
 
 import java.util.Scanner;
 
