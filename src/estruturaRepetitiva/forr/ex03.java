@@ -12,8 +12,9 @@ public class ex03 {
 
         for (int i = 0; i < n; i++) {
             double media = 0;
-            double peso = 2;
             System.out.printf("Conjunto %d%n", i + 1);
+            double peso = 2;
+
 
             for (int j = 0; j < 3; j++) {
                 peso += j;
